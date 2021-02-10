@@ -1,0 +1,261 @@
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* -------------------------------------------------------- body font styles -------------------------------------------------------- */  
+
+body {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 40px !important;
+	text-align: center;
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 100 !important;
+	color: #1e1e1e;
+}
+
+h2 {
+	padding-top: 25px;
+	font-weight: 100 !important;
+	font-size: 21px !important;
+	margin: 10px;
+	color: #1e1e1e;
+}
+
+h3 {
+	font-weight: 100 !important;
+	font-size: 14px !important;
+	color: #9a9a9d !important;
+	font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	letter-spacing: 0.5px;
+	margin-top: 570px !important;
+}
+
+.tooltip-inner {
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	padding: 8px 15px !important;
+	font-size: 14px;
+
+}
+
+.footer {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 650px;
+	margin-top: 30px;
+}
+
+.robotanimation {
+	margin-top: 60px; 
+	width: 400px;
+	height: 376px;
+	background-image: url(images/robotanimation-3.gif);
+	margin-bottom: 0px;
+	animation: slideIn 2s forwards;
+}
+
+
+hr {
+	height: 1px;
+	color: red; 
+	width: 100%;
+	margin-top: 0px !important;
+}
+
+
+/* ------------------------------------------------------------- links -------------------------------------------------------------- */  
+
+.launchLinks {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.Ibm-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/YourIBM_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+ .DesignThinking-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/DesignThinking_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+.Verse-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Verse_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+.Slack-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Slack_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+ .Invision-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Invision_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+.Box-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Box_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+ .Rtc-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Rtc_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+ .Bluemix-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/IbmCloud_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+  .Github-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Github_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }  
+
+ .Jira-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Jira_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ } 
+
+ .Mural-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/Mural_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }    
+
+ .YourLearning-logo100 {
+	width: 100px;
+	height: 100px;
+	background: url(images/YourLearning_100.png);
+	margin: 12px;
+	display: inline-block;
+	opacity: 0.5;
+ }    
+
+
+/* -------------------------------------------------------- media queries -------------------------------------------------------- */  
+
+/* ----------------------------- min width 1100px ------------------------------ */
+
+@media (min-width: 1100px) {
+
+	@-moz-keyframes slideIn {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(158%)
+	}
+	}
+
+@keyframes slideIn {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(158%)
+	}
+	}
+
+@-webkit-keyframes slideIn {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(158%)
+	}
+	}
+}
+
+
+/* ----------------------------- max width 400px ------------------------------ */
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 28px !important;
+	}
+
+	h3 {
+		margin-top: 550px !important;
+	}
+
+	@-moz-keyframes slideIn {
+		0% {
+			transform: translateX(-100%);
+		}
+		50% {
+			transform: translateX(30%)
+		}
+	}
+
+	@keyframes slideIn {
+		0% {
+			transform: translateX(-100%);
+		}
+		50% {
+			transform: translateX(30%)
+		}
+	}
+
+	@-webkit-keyframes slideIn {
+		0% {
+			transform: translateX(-100%);
+		}
+		50% {
+			transform: translateX(30%)
+		}
+	}
+}
+

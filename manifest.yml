@@ -1,0 +1,5 @@
+---
+applications:
+ - name: RachelsLaunchPage
+   random-route: true
+   memory: 256M
